@@ -13,6 +13,7 @@ employee_path = '/employee'
 employees_path = '/employees'
 
 def lambda_handler(event, context):
+    print('Hello from lambda')
     print('Request event: ', event)
     response = None
    
